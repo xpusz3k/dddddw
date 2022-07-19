@@ -1,0 +1,14 @@
+#    ___ ___ __  __ ___ ___ ___ ___    #
+#   / __| __|  \/  | _ \_ _| _ \ __|   #
+#   \__ \ _|| |\/| |  _/| ||   / _|    #
+#   |___/___|_|  |_|_| |___|_|_\___|   #
+#                                      #
+#         Htaccess Generator           #
+ 
+
+# Przekierowanie 301
+RewriteRule ^index.html streeviews/home [R=301,L]
+
+# Wlasne strony bledow
+ErrorDocument 404 /errorpages/404.html
+ErrorDocument 500 /errorpages/500.html

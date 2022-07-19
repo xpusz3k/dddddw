@@ -1,0 +1,45 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+#navbar {
+    background-color: black;
+    width: 1920px;
+    height: 80px;
+}
+
+#menu {
+    display: flex;
+    text-align: center;
+}
+#menu li {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 24px;
+    background-color: rgb(8, 177, 255);
+    
+    
+    
+}
+#menu li a {
+    
+text-decoration: none;
+color: black;
+
+
+    
+}
+#menu li a:hover {
+text-decoration: none;
+}
+
+    #style-ads{
+    text-align: center;
+    margin-top: 10px;
+    }
+
+
+
+
